@@ -10901,6 +10901,7 @@ h5,
 
 .btn.btn-primary {
     width: 140px;
+    margin-top: 10px;
     background: #101F43;
     border: 1px solid #79f2ff;
     color: #44B0EC;
@@ -10908,7 +10909,7 @@ h5,
 
 .btn.btn-primary3 {
 
-    width: 240px;
+    width: 200px;
    background: #2085ff; /* Old browsers */
 background: -moz-linear-gradient(-45deg, #2085ff 0%, #44b0ec 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(-45deg, #2085ff 0%,#44b0ec 100%); /* Chrome10-25,Safari5.1-6 */
@@ -10918,6 +10919,7 @@ background: linear-gradient(135deg, #2085ff 0%,#44b0ec 100%); /* W3C, IE10+, FF1
 
 .btn.btn-primary2 {
     width: 140px;
+    margin-top: 10px;
     background: #101F43;
     border: 1px solid #989898;
     color: #a4a4a4;
@@ -11285,7 +11287,7 @@ background: linear-gradient(135deg, #2085ff 0%,#44b0ec 100%); /* W3C, IE10+, FF1
 
     .block-3 .text,
     .block-3 .image {
-        width: 50%;
+        width: 30%;
 
     }
 }
@@ -11319,15 +11321,34 @@ background: linear-gradient(135deg, #2085ff 0%,#44b0ec 100%); /* W3C, IE10+, FF1
     position: relative;
 }
 
+.block-3 .images {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
 
 
 
 
 @media (max-width: 767.98px) {
     .block-3 .image {
-        height: 300px;
+        height: 500px;
     }
+    
+
 }
+
+@media (max-width: 767.98px) {
+    .block-3 .images {
+        height: 360px;
+    }
+    
+
+}
+
 
 .block-5 {
     overflow: hidden;
