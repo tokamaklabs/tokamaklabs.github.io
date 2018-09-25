@@ -16,3 +16,19 @@ h2{
         font-style: normal;
         color: #49f6cd;
 }
+#careers h3{
+    font-size: 34px;
+    font-family: sans-serif;
+}
+
+#about .container{
+    background-image: url(../images/about_bg.png);
+}
+
+#careers .container{
+     background-image: url(../images/carrers_bg.png);
+        background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
