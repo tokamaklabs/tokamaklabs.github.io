@@ -1,34 +1,113 @@
-.hometitle{
-    line-height:200 px;
-    top:230 px; 
-    
+.hometitle {
+    line-height: 200 px;
+    top: 230 px;
+
 }
 
-h2{
-    text-align:left; 
+h2 {
+    text-align: left;
 }
-.founder{
+
+.founder {
     color: #98C7FF;
     text-align: right;
 }
 
-#careers i{
-        font-style: normal;
-        color: #49f6cd;
+#careers i {
+    font-style: normal;
+    color: #49f6cd;
 }
-#careers h3{
-    font-size: 34px;
+
+#careers h4 {
+    font-size: 26px;
     font-family: sans-serif;
 }
 
-#about .container{
+#about .container {
     background-image: url(../images/about_bg.png);
 }
 
-#careers .container{
-     background-image: url(../images/carrers_bg.png);
-        background-position: center;
+#careers .container {
+    background-image: url(../images/carrers_bg.png);
+    background-position: top center;
     background-repeat: no-repeat;
 
-    
+
+}
+
+#careers p {
+    font-size: 18px;
+    text-align: left;
+    display: inline-block;
+    margin-left: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+
+}
+
+@media (max-width: 767.98px) {
+    #careers p {
+        font-size: 18px;
+        letter-spacing: 0px;
+        margin-bottom: 40px;  
+    }
+        .footerbox{
+            text-align: center;
+    }
+}
+
+#contact {
+    padding-bottom: 60px;
+    padding-top: 80px;
+}
+
+#project {
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+
+.modalbox img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+.modalbox h2 {
+    font-family: PingFangTC-Medium;
+    line-height: 40px;
+    text-align: center;
+}
+.modalbox h6 {
+    font-family: pingfangtc-light;
+    line-height: 30px;
+    text-align: center;
+    line-height: 20px;
+}
+
+@media (max-width: 767.98px) {
+  
+
+    .modalbox h2 {
+        font-size: 30px;
+
+    }
+     .modalbox h5 {
+        font-size: 20px;
+         letter-spacing: 0px;
+        
+
+    }
+
+    .modalbox .headers {
+        margin-bottom: 20px;
+
+    }
+     .modalbox .btn-primary3  {
+         margin-top: 50px;
+         display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
 }
