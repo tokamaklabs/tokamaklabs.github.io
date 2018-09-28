@@ -25,7 +25,7 @@ h2 {
 
 #about .container {
     background-image: url(../images/about_bg.svg);
-     background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -51,10 +51,17 @@ h2 {
     #careers p {
         font-size: 18px;
         letter-spacing: 0px;
-        margin-bottom: 40px;  
+        margin-bottom: 40px;
     }
-        .footerbox{
-            text-align: center;
+
+    .footerbox {
+        text-align: center;
+    }
+
+    .founder {
+        margin-top: 20px;
+        float: right;
+        text-align: right;
     }
 }
 
@@ -69,42 +76,47 @@ h2 {
 }
 
 .modalbox img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
-    }
+}
+
 .modalbox h2 {
-    font-family: 'PingFangTC-Medium' ,'PingFangTC', 'Microsoft JhengHei', 'Roboto', "Helvetica Neue", Arial, sans-serif, ;
+    font-family: 'PingFangTC', 'Microsoft JhengHei', 'Roboto', "Helvetica Neue", Arial, sans-serif, ;
     line-height: 40px;
+    font-weight: 600;
     text-align: center;
 }
+
 .modalbox h6 {
     font-family: 'PingFangTC', 'Microsoft JhengHei', 'Roboto', "Helvetica Neue";
     font-weight: 100px;
     line-height: 20px;
-    text-align:center;
+    text-align: center;
 
 }
 
 
 @media (max-width: 767.98px) {
-    #contact img{
+    #contact img {
         width: 65%;
-    
 
-}
-  
+
+    }
+
 
     .modalbox h2 {
         font-size: 28px;
         letter-spacing: 0px;
 
     }
-     .modalbox h5 {
+
+    .modalbox h5 {
         font-size: 20px;
-         letter-spacing: 0px;
-        
+        letter-spacing: 0px;
+         line-height: 40px;
+
 
     }
 
@@ -112,12 +124,31 @@ h2 {
         margin-bottom: 20px;
 
     }
-     .modalbox .btn-primary3  {
-         margin-top: 50px;
-         display: block;
+
+    .modalbox .btn-primary3 {
+        margin-top: 50px;
+        display: block;
         margin-left: auto;
         margin-right: auto;
 
     }
 
+}
+
+@media (max-width: 320px) {
+    
+    .modalbox h2 {
+        font-size: 23px;
+        letter-spacing: 0px;
+
+    }
+       .modalbox h5 strong {
+        font-size: 18px;
+        letter-spacing: 0px;
+           line-height: 40px;
+
+    }
+    .modalbox img {
+        width: 80%;
+    }
 }
